@@ -166,5 +166,3 @@ Create a new **Configurable Option Group** and link it to the Hetzner Cloud prod
 ## License
 
 This WHMCS server module is released under the [MIT License](https://opensource.org/licenses/MIT).
-#   h e t z n e r - c l o u d - w h m c s  
- 
