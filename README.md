@@ -40,13 +40,18 @@ WHMCS_ROOT/
                     ├── hooks.php           # Secondary sidebar and navbar hook integrations
                     ├── whmcs.json          # WHMCS module configuration details
                     ├── logo.png            # Admin page module brand icon
+                    ├── assets/
+                    │    ├── css/
+                    │    │    └── style.css # Premium design stylesheets (Glassmorphism design)
+                    │    └── js/
+                    │         └── client.js # Client area AJAX and interaction handler
                     ├── lib/
-                    │    └── HetznerAPI.php # Hetzner Cloud REST API wrapper library
+                    │    ├── HetznerAPI.php     # Hetzner Cloud REST API wrapper library
+                    │    └── MetricProvider.php # VM performance metric collector
                     └── templates/
                          ├── error.tpl      # Standardized user-friendly error templates
-                         ├── overview.tpl   # 9-tab dashboard template
-                         └── css/
-                              └── style.css # Premium design stylesheets (Glassmorphism design)
+                         ├── overview.tpl   # Modular parent layout template
+                         └── partials/      # Modular tab templates (dashboard, metrics, rescue, etc.)
 ```
 
 ---
