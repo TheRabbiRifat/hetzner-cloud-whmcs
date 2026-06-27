@@ -1,0 +1,32 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-servers",
+    "name": "hz_cloud",
+    "license": "MIT",
+    "category": "provisioning",
+    "description": {
+        "name": "Hetzner Cloud VPS",
+        "tagline": "Automated provisioning and management of Hetzner Cloud virtual servers.",
+        "long": "This module allows you to automate the deployment, sizing, suspension, and deletion of Hetzner Cloud VPS instances in WHMCS, while providing clients with a state-of-the-art management console.",
+        "features": [
+            "Automatic server provisioning on payment",
+            "Perform Power On, Power Off, and Reboot from Client Area",
+            "Request root password reset and track VM actions history",
+            "Interactive OS rebuild/reinstallation tool",
+            "Automatic SSH key injection and firewall assignment"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https://docs.hetzner.cloud/", 
+        "learn_more": "https://www.hetzner.com/cloud", 
+        "docs_url": "https://docs.hetzner.cloud/"
+    },
+    "authors": [
+        {
+            "name": "Hetzner Cloud WHMCS Integrator"
+        }
+    ]
+}
